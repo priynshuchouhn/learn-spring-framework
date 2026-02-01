@@ -1,4 +1,4 @@
-package helloWorld;
+package com.priynshuchouhn.learn_spring_framework.helloWorld;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -6,9 +6,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 
-record Person(String name, int age, Address address) {};
+;
 
-record Address(String firstLine, String cityName) {};
+;
 
 @Configuration
 public class HelloWorldConfiguration {

@@ -1,7 +1,7 @@
 package com.priynshuchouhn.learn_spring_framework;
 
-import helloWorld.Address;
-import helloWorld.HelloWorldConfiguration;
+import com.priynshuchouhn.learn_spring_framework.helloWorld.Address;
+import com.priynshuchouhn.learn_spring_framework.helloWorld.HelloWorldConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.Arrays;
